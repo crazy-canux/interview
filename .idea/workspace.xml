@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b6a78af-9425-445e-87f4-2a7626cd113e" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/interview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tesla/chatserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/tesla/chatserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tesla/chatserver_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tesla/chatserver_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gYDedZvthDKKSyQsiJRkMmTdEh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wcheng\Desktop\Src\go\src\interview\pkg\tesla" />
+      <recent name="C:\Users\wcheng\Desktop\Src\go\src\interview" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wcheng\Desktop\Src\go\src\interview\tesla" />
+      <recent name="C:\Users\wcheng\Desktop\Src\go\src\interview" />
+      <recent name="C:\Users\wcheng\Desktop\Src\go\src\interview\tesla\pkg\chat" />
+      <recent name="C:\Users\wcheng\Desktop\Src\go\src\interview\pkg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestPostMsg in interview/tesla">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application" editBeforeRun="true">
+      <module name="interview" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <package value="interview/tesla" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interview (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <module name="interview" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="interview" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interview (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <module name="interview" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interview" type="GoApplicationRunConfiguration" factoryName="Go Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <module name="interview" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="interview" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interview/tesla" type="GoApplicationRunConfiguration" factoryName="Go Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <module name="interview" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/tesla/main.go" />
+      <package value="interview/tesla" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPostMsg in interview/tesla" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview" />
+      <working_directory value="$PROJECT_DIR$/tesla" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="interview/tesla" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPostMsg$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build interview/tesla" />
+      <item itemvalue="Go Build.go build interview" />
+      <item itemvalue="Go Build.go build interview (1)" />
+      <item itemvalue="Go Build.go build interview (2)" />
+      <item itemvalue="Go Test.TestPostMsg in interview/tesla" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestPostMsg in interview/tesla" />
+        <item itemvalue="Go Build.go build interview (2)" />
+        <item itemvalue="Go Build.go build interview (1)" />
+        <item itemvalue="Go Build.go build interview" />
+        <item itemvalue="Go Build.go build interview/tesla" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2179" y="0" key="#TestPostMsg_in_interview/pkg/tesla" timestamp="1598455762037">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2179" y="0" key="#TestPostMsg_in_interview/pkg/tesla/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598455762037" />
+    <state x="2179" y="0" key="#TestPostMsg_in_interview/pkg/tesla_(1)" timestamp="1598455835682">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2179" y="0" key="#TestPostMsg_in_interview/pkg/tesla_(1)/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598455835682" />
+    <state x="2186" y="0" key="#TestPostMsg_in_interview/tesla" timestamp="1598369396643">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2186" y="0" key="#TestPostMsg_in_interview/tesla/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598369396643" />
+    <state x="2004" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598455085513">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2004" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598455085513" />
+    <state x="2179" y="0" key="#go_build_interview" timestamp="1598456430292">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2179" y="0" key="#go_build_interview/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456430292" />
+    <state x="2179" y="0" key="#go_build_interview/pkg/tesla" timestamp="1598455672931">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2179" y="0" key="#go_build_interview/pkg/tesla/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598455672931" />
+    <state x="2179" y="0" key="#go_build_interview/pkg/tesla_(1)" timestamp="1598455733410">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2179" y="0" key="#go_build_interview/pkg/tesla_(1)/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598455733410" />
+    <state x="2186" y="0" key="#go_build_interview/tesla" timestamp="1598456211502">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2186" y="0" key="#go_build_interview/tesla/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456211502" />
+    <state x="2186" y="0" key="#go_build_interview/tesla_(1)" timestamp="1598368999242">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2186" y="0" key="#go_build_interview/tesla_(1)/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598368999242" />
+    <state x="2186" y="0" key="#go_build_interview/tesla_(2)" timestamp="1598454088986">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2186" y="0" key="#go_build_interview/tesla_(2)/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598454088986" />
+    <state x="2179" y="0" key="#go_build_interview_(1)" timestamp="1598456449267">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2179" y="0" key="#go_build_interview_(1)/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456449267" />
+    <state x="2179" y="0" key="#go_build_interview_(2)" timestamp="1598456604865">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2179" y="0" key="#go_build_interview_(2)/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456604865" />
+    <state x="2445" y="164" key="EnvironmentVariablesDialog" timestamp="1598368896440">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2445" y="164" key="EnvironmentVariablesDialog/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598368896440" />
+    <state x="2288" y="37" key="FileChooserDialogImpl" timestamp="1598454851660">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2288" y="37" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598454851660" />
+    <state width="1178" height="108" key="GridCell.Tab.0.bottom" timestamp="1598456605229">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1178" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456605229" />
+    <state width="1178" height="108" key="GridCell.Tab.0.center" timestamp="1598456605229">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1178" height="108" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456605229" />
+    <state width="1178" height="108" key="GridCell.Tab.0.left" timestamp="1598456605229">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1178" height="108" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456605229" />
+    <state width="1178" height="108" key="GridCell.Tab.0.right" timestamp="1598456605229">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state width="1178" height="108" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456605229" />
+    <state x="1975" y="0" key="SettingsEditor" timestamp="1598456564167">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="1975" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1598456564167" />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-package main
+package tesla
 
 import (
 	"encoding/json"
@@ -18,7 +18,7 @@ func MessageHandler(rw http.ResponseWriter, r *http.Request) {
 	if r.Method == "POST" {
 		msg, _ := ioutil.ReadAll(r.Body)
 		result := true
-		f, err := os.OpenFile("msg.txt",  os.O_RDWR | os.O_APPEND, 0666)
+		f, err := os.OpenFile("C:\\Users\\wcheng\\Desktop\\Src\\go\\src\\interview\\tesla\\msg.txt", os.O_CREATE | os.O_APPEND | os.O_RDWR, 0666)
 		if err != nil {
 			fmt.Printf("open file error: %v", err)
 			result = false
@@ -39,14 +39,14 @@ func MessageHandler(rw http.ResponseWriter, r *http.Request) {
 		rspJson, _ := json.Marshal(rsp)
 		rw.Write(rspJson)
 	} else if r.Method == "GET" {
-		msgs, err := ioutil.ReadFile("msg.txt")
+		msgs, err := ioutil.ReadFile("C:\\Users\\wcheng\\Desktop\\Src\\go\\src\\interview\\tesla\\msg.txt")
 		if err != nil {
 			fmt.Printf("read msg error: %v", err)
 		}
 		var msgList []Msg
 		json.Unmarshal(msgs, &msgList)
 		rsp := map[string][]Msg{
-			"messages": msgList,
+			"messages": &msgList,
 		}
 		rspJson, _ := json.Marshal(rsp)
 		rw.Header().Set("Content-Type", "application/json")
@@ -54,8 +54,4 @@ func MessageHandler(rw http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func main() {
-	http.HandleFunc("/message", MessageHandler)
-	err := http.ListenAndServe(":8081", nil)
-	panic(err)
-}
+

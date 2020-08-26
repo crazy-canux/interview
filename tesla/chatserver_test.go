@@ -1,4 +1,4 @@
-package main
+package tesla
 
 import (
 	"bytes"
@@ -10,7 +10,8 @@ import (
 )
 
 func TestPostMsg(t *testing.T) {
-	msg := map[string]string{
+	msg := map[string]interface{} {
+		"timestamp": 1491345710.18,
 		"user": "batman",
 		"text": "hello",
     }
@@ -22,5 +23,15 @@ func TestPostMsg(t *testing.T) {
 	body, _ := ioutil.ReadAll(res.Body)
 	res.Body.Close()
 	fmt.Println(body)
+}
+
+func TestGetMsg(t *testing.T) {
+	res, err := http.Get("http://127.0.0.1:8081/message")
+	if err != nil {
+		t.Error("failed")
+	}
+	body, _ := ioutil.ReadAll(res.Body)
+	res.Body.Close()
+	fmt.Println(string(body))
 }
 
