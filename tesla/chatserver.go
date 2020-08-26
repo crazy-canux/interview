@@ -1,14 +1,15 @@
 package main
 
 import (
-	"bufio"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
 )
 
 type Msg struct {
+	TimeStamp float64
 	User string
 	Text string
 }
@@ -16,11 +17,21 @@ type Msg struct {
 func MessageHandler(rw http.ResponseWriter, r *http.Request) {
 	if r.Method == "POST" {
 		msg, _ := ioutil.ReadAll(r.Body)
-		f, _ := os.OpenFile("msg.txt",  os.O_APPEND, 0666)
-		defer f.Close()
-		_, err := f.Write(msg)
-		var rsp = map[string]bool{}
+		result := true
+		f, err := os.OpenFile("msg.txt",  os.O_RDWR | os.O_APPEND, 0666)
 		if err != nil {
+			fmt.Printf("open file error: %v", err)
+			result = false
+		} else{
+			defer f.Close()
+			_, err := f.Write(msg)
+			if err != nil {
+				fmt.Printf("write msg error: %v", err)
+				result = false
+			}
+		}
+		var rsp = map[string]bool{}
+		if result {
 			rsp["ok"] = true
 		} else {
 			rsp["ok"] = false
@@ -28,12 +39,12 @@ func MessageHandler(rw http.ResponseWriter, r *http.Request) {
 		rspJson, _ := json.Marshal(rsp)
 		rw.Write(rspJson)
 	} else if r.Method == "GET" {
-		var msgList = []Msg{}
-		f, _ := os.Open("msg.txt")
-		scanner := bufio.NewScanner(f)
-		for scanner.Scan() {
-			msgList.append(scanner.Text())
+		msgs, err := ioutil.ReadFile("msg.txt")
+		if err != nil {
+			fmt.Printf("read msg error: %v", err)
 		}
+		var msgList []Msg
+		json.Unmarshal(msgs, &msgList)
 		rsp := map[string][]Msg{
 			"messages": msgList,
 		}
