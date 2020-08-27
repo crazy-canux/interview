@@ -5,8 +5,12 @@ import (
 	"net/http"
 )
 
-func main() {
+func Tesla() {
 	http.HandleFunc("/message", tesla.MessageHandler)
 	err := http.ListenAndServe(":8081", nil)
 	panic(err)
+}
+
+func main() {
+	Tesla()
 }

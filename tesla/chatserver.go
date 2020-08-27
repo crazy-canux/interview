@@ -46,7 +46,7 @@ func MessageHandler(rw http.ResponseWriter, r *http.Request) {
 		var msgList []Msg
 		json.Unmarshal(msgs, &msgList)
 		rsp := map[string][]Msg{
-			"messages": &msgList,
+			"messages": msgList,
 		}
 		rspJson, _ := json.Marshal(rsp)
 		rw.Header().Set("Content-Type", "application/json")
